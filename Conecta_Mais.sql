@@ -51,7 +51,7 @@ nome varchar (50),
 ramo varchar(255),
 email varchar(320) not null UNIQUE,
 senha varchar(255) not null UNIQUE,
-endereco varchar(255)not null  primary key,-- olha onde eu coloquei a chave primária
+endereco varchar(255)not null  primary key,
 matriz_ou_filial varchar(150),
 cnpj varchar(14)
 );
